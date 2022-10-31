@@ -2,7 +2,7 @@
 import { StyleSheet } from "react-native"
 
 const styles=StyleSheet.create({
-    topBar:{marginBottom:32,backgroundColor:'green',flexDirection:"row"},
+    topBar:{marginBottom:8,flexDirection:'row',justifyContent:'space-between',marginTop:32},
     container: {
         flex: 1,
         marginHorizontal:16,
@@ -11,7 +11,7 @@ const styles=StyleSheet.create({
     },
 
 btn:{ flex: 1, justifyContent: 'flex-end' },
-bottom:{ backgroundColor: 'green', height: 48, alignItems: 'center', justifyContent: 'center', borderRadius: 8 },
+bottom:{ backgroundColor: 'green', height: 48, alignItems: 'center', justifyContent: 'center', borderRadius: 8 ,marginBottom:24},
 txtColor:{ color: 'white' }
 
 

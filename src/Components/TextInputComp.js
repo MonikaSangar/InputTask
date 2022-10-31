@@ -7,14 +7,18 @@ const TextInputComp = ({
     placeholder={},
     textInputStyle,
    keyboardType,
+   onChangeText,
+   value,
     onPress = () => {}
 }) => {
     return (
       
            <TextInput style={{...styles.inputStyle,...textInputStyle}}
                 placeholder={placeholder}
+                value={value}
+                onChangeText={onChangeText}
                 onPress={onPress}
-                keyboardType={keyboardType}             ></TextInput>
+                keyboardType={keyboardType}></TextInput>
        
     );
 };
